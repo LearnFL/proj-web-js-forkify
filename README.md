@@ -7,6 +7,7 @@ Practicing Java Script.
 JavaScript, OOP.
 
 ## NETLIFY DEPLOYMENT
+Netlify.com (no database, no server side code, only static) or use surge.sh.
 Had to change Fraction to fracty as it was causing issues.
 
 1) Delete .parce-cache and dist to give a fresh start
@@ -16,12 +17,11 @@ Had to change Fraction to fracty as it was causing issues.
 "default": "index.html",
 ```
 4) Run build command.
-5) Upload to Netlify
+5) Upload to Netlify.
 
 ## Video Introduction on YouTube
 [Video](https://www.youtube.com/watch?v=7sVlBxkcnLk)
-4) Netlify.com (no database, no server side code, only static) or use surge.sh
-5) 
+
 
 ## VISIT LIVE PAGE
 [See live page](https://heartfelt-pothos-fe24bd.netlify.app)
