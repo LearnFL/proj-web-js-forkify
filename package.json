@@ -2,17 +2,21 @@
   "dependencies": {
     "autoprefixer": "^10.4.13",
     "core-js": "^3.27.2",
-    "fractional": "^1.0.0",
+    "fracty": "^1.0.11",
     "regenerator-runtime": "^0.13.11"
   },
   "type": "module",
   "name": "forkify",
   "version": "1.0.0",
   "description": "Recipe application",
-  "main": "index.html",
+  "default": "index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "targets": {
+    "main": false
+  },
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Dennis Rotnov",
   "license": "ISC",
@@ -20,8 +24,5 @@
     "@parcel/transformer-sass": "^2.8.3",
     "parcel": "^2.8.3",
     "process": "^0.11.10"
-  },
-  "targets": {
-    "main": false
   }
 }
